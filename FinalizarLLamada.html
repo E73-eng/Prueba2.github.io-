@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abandonaste la reunión</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #202124;
+        }
+
+        h1 {
+            color: #3c4043;
+            font-size: 32px;
+            font-weight: 400;
+            margin-bottom: 40px;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border-radius: 100px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-outline {
+            border: 1px solid #dadce0;
+            color: #1a73e8;
+            background-color: white;
+        }
+
+        .btn-primary {
+            background-color: #1a73e8;
+            color: white;
+            border: none;
+        }
+
+        .feedback {
+            margin-bottom: 30px;
+            color: #1a73e8;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .info-box {
+            max-width: 450px;
+            border: 1px solid #dadce0;
+            border-radius: 8px;
+            padding: 20px;
+            display: flex;
+            align-items: flex-start;
+            margin-top: 20px;
+        }
+
+        .icon {
+            color: #1a73e8;
+            background-color: #e8f0fe;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 16px;
+            flex-shrink: 0;
+        }
+
+        .info-text h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-weight: 500;
+            font-size: 16px;
+        }
+
+        .info-text p {
+            margin: 0;
+            font-size: 14px;
+            color: #5f6368;
+            line-height: 1.5;
+        }
+
+        .more-info {
+            text-align: right;
+            color: #1a73e8;
+            font-size: 14px;
+            margin-top: 12px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<h1>Abandonaste la reunión</h1>
+
+<div class="buttons">
+    <a href="video.html" class="btn btn-outline">Volver a unirse</a>
+    <a href="index.html" class="btn btn-primary">Volver a la pantalla principal</a>
+</div>
+
+<div class="info-box">
+    <div class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1a73e8">
+            <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/>
+        </svg>
+    </div>
+    <div class="info-text">
+        <h3>Tu reunión es segura</h3>
+        <p>Nadie podrá unirse a una reunión, a menos que el organizador los invite o admita</p>
+        <div class="more-info">Obtener más información</div>
+    </div>
+</div>
+</body>
+</html>
